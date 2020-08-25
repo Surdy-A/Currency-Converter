@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.space {
+  margin: 20px;
+  border: 3px solid rgba(152, 152, 236, 0.746);
+  height:3em;
+}
