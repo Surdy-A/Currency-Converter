@@ -75,7 +75,7 @@ function App() {
 
   return (
     <>
-      <section class="bg-primary bg-gradient text-white pt-0 my-0">
+      <section class="bg-primary bg-gradient text-white pt-0 my-0 base">
         <div class="container px-2 text-center">
           <img
             src="assets/images/money.png"
@@ -148,14 +148,22 @@ function App() {
               />
             </form>
           )}
-          {/* Form */}
         </div>
       </section>
 
-      <footer class="py-5 bg-dark">
-        <div class=" px-4">
+      <footer class="py-2 pb-2  bg-dark  navbar-static-bottom text-center">
+        <div class="">
           <p class="m-0 text-center text-white">
-            Copyright &copy; Your Website 2021
+            Built with <i class="fa fa-heart" aria-hidden="true"></i> by
+            <a
+              href="https://github.com/Surdy-A/Currency-Converter"
+              className="text-white"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              Ajayi Sodiq{" "}
+            </a>
           </p>
         </div>
       </footer>
